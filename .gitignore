@@ -1,0 +1,23 @@
+vue-notion/.DS_Store
+vue-notion/node_modules
+vue-notion//dist
+
+
+# local env files
+vue-notion/.env.local
+vue-notion/.env.*.local
+
+# Log files
+vue-notion/npm-debug.log*
+vue-notion/yarn-debug.log*
+vue-notion/yarn-error.log*
+vue-notion/pnpm-debug.log*
+
+# Editor directories and files
+vue-notion/.idea
+vue-notion/.vscode
+vue-notion/*.suo
+vue-notion/*.ntvs*
+vue-notion/*.njsproj
+vue-notion/*.sln
+vue-notion/*.sw?
