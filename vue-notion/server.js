@@ -1,5 +1,12 @@
 const express = require('express');
-const port = process.env.PORT || 8080;
 const app = express();
+const port = process.env.PORT || 8080;
+
 app.use(express.static(__dirname + "/dist/"));
-app.listen(port);
+app.get(/.*/, function(req, res) {
+    res.sendfile(__dirname + "/dist/index.html");
+});
+
+app.listen(port, function () {
+  console.log('Example app listening');
+});
